@@ -5,7 +5,7 @@ using namespace std;
 class Bmi
 {
     public:
-        Bmi();
+        Bmi();//defult constructor
         Bmi(double,double);
 
         void setHeight(double);

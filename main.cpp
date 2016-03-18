@@ -17,13 +17,13 @@ int main()
     while(inFile>>h>>w)
     {
         if(h==0&&w==0)
-        {
+        {//define 0 0 is EOF
             break;
         }
         else
         {
-            Bmi bmi(h,w);//(h,w);
-            //#define DEBUG_1
+            Bmi bmi(h,w);//initialization
+            //#define DEBUG_1//test output
             #ifdef DEBUG_1
                 cout<<bmi.getHeight()<<" ";
                 cout<<bmi.getWeight()<<" ";

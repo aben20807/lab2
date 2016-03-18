@@ -38,7 +38,7 @@ double Bmi::getBmi()
         return bmi;
 }
 string Bmi::getCategory(double bmi)
-{
+{//categorize bmi and return string
     if(bmi<15.0)
         return "Very severely underweight";
     else if(bmi<16.0)
