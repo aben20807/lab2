@@ -33,5 +33,7 @@ int main()
             outFile<<bmi.getBmi()<<'\t'<<bmi.getCategory(bmi.getBmi())<<endl;
         }
     }
+    inFile.close();
+    outFile.close();
     return 0;
 }
